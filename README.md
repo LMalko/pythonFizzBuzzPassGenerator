@@ -6,6 +6,7 @@ Create 2 modules:
 1. fizzbuzz_module
 2. passwordgen_module
 
+===
 1. fizzbuzz_module should contain function that should work as follows:
 
 Write a function called "fizzbuzz", which modifies the list of numbers as the following:
