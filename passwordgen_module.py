@@ -1,6 +1,6 @@
 
 
-def passwordgen(password):
+def passwordgen():
     import random
     password = []
     password_length = random.choice(range(8, 30))
@@ -13,6 +13,6 @@ def passwordgen(password):
         list_of_choices = [random_number, random_letter, random_sign]
         random_character = random.choice(list_of_choices)
         password.append(random_character)
-    return password
+    return "".join(password)
 
 
